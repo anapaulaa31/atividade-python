@@ -1,12 +1,13 @@
 from app.text_inspector import TextInspector
 
+
 def main() -> None:
     """
     Executa a inspeção do texto utilizando a classe TextInspector.
     """
     caminho = "texto.txt"  # Caminho do arquivo de texto
     inspector = TextInspector(caminho)
-
+    
     print("=== Palavras que começam com 'a' ===")
     print(inspector.palavras_comecam_com('a'))
 
